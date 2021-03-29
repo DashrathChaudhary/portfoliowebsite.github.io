@@ -1,0 +1,55 @@
+@font-face{
+    font-family: Arial, Helvetica, sans-serif;
+    src: url(../
+    FONTS/Raleway-Black.ttf);
+}
+/* color */
+:root{
+    --primary:#eebf00;
+    --secondary:#232b38;
+    --ternary:#6C6C6C;
+    --danger:#FE4545;
+    --pure:#FEFEFE;
+    --light:#F0F0F0;
+    --heaven:#FFFFFF;
+    --footer:#2D333F;
+}
+
+/* reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+@media(min-width:576px){
+    .container{
+        max-width: 720px;
+    }
+}
+@media(min-width:992px){
+    .container{
+        max-width: 960px;
+    }
+}
+@media(min-width:1200px){
+    .container{
+        max-width: 1152px;
+    }
+}
+header.topbar{
+    background:var(--secondary);
+    color: var(--pure);
+}
+header.topbar {
+    color:var(--pure);
+    text-decoration: none;
+}
+.auth a{
+    color:var(--pure)
+}
